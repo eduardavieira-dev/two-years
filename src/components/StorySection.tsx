@@ -32,7 +32,7 @@ const stories: Story[] = [
     title: 'O pedido💍',
     message:
       'Depois de conhecermos a família um do outro e você conversar com meu pai, você me pediu em namoro. Nunca vou esquecer daquele momento, foi tão lindo e atencioso! O pedido foi uma surpresa e eu fiquei muito feliz. E desde então começamos a escrever nossa história juntos.',
-    image: '/nos-dois/pedido.JPG',
+    image: '/nos-dois/pedido.jpg',
     alt: 'O pedido de namoro',
   },
   {
@@ -47,8 +47,8 @@ const stories: Story[] = [
     date: 'Outubro de 2024',
     title: 'Meu batizado',
     message:
-      'O batizado é um momento inesquecivel na vida de um critão, e foi muito bom ter você comigo nesse momento tão especial. Eu me senti muito feliz e abençoada por ter você ao meu lado, e por poder compartilhar esse momento com você.',
-    image: '/nos-dois/batizado.JPG',
+      'O batizado é um momento inesquecivel na vida de um cristão, e foi muito bom ter você comigo nesse momento tão especial. Eu me senti muito feliz e abençoada por ter você ao meu lado, e por poder compartilhar esse momento com você.',
+    image: '/nos-dois/batizado.jpg',
     alt: 'Meu batizado',
   },
   {

@@ -93,7 +93,7 @@ export default function Home() {
           </p>
           <nav aria-label="Redes sociais" className="flex items-center gap-5">
             <a
-              href="https://www.instagram.com/eduardavieira"
+              href="https://www.instagram.com/eduardavieira.dev"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram de Eduarda Vieira"
@@ -102,7 +102,7 @@ export default function Home() {
               <HugeiconsIcon icon={InstagramIcon} size={24} />
             </a>
             <a
-              href="https://github.com/eduardavieira"
+              href="https://github.com/eduardavieira-dev"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub de Eduarda Vieira"
@@ -111,7 +111,7 @@ export default function Home() {
               <HugeiconsIcon icon={GithubIcon} size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/eduardavieira"
+              href="https://www.linkedin.com/in/eduarda-vieira-gon%C3%A7alves-01a584297/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn de Eduarda Vieira"
