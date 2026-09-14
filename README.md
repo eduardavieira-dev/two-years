@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 2 anos de namoro | Eduarda e Artur
 
-## Getting Started
+<!-- Coloque uma imagem do projeto completo em public/project-preview.png -->
+![Home](public/design/home.png)
+![Mensagem](public/design/mensagem.png)
+![Historia](public/design/historia.png)
+![Proposito](public/design/prop.png)
+![Footer](public/design/footer.png)
 
-First, run the development server:
+Uma homenagem interativa aos nossos dois anos de namoro, criada para celebrar nossa história, nossas memórias e os sonhos que ainda vamos construir juntos.
+
+## Sobre o projeto
+
+Este projeto é uma página comemorativa com uma experiência visual romântica e interativa. A página reúne:
+
+- Mensagem inicial com efeito visual e coração interativo.
+- Foto e mensagem dedicada ao Artur.
+- Linha do tempo com carrossel de fotos e modal para cada lembrança.
+- Seção de propósito com planos e valores para o futuro.
+- Header com efeito glass e navegação por seções.
+- Footer com redes sociais e informações sobre a homenagem.
+
+## Tecnologias
+
+- [Next.js](https://nextjs.org/) com App Router.
+- [React](https://react.dev/).
+- [TypeScript](https://www.typescriptlang.org/).
+- [Tailwind CSS](https://tailwindcss.com/).
+- [React Bits](https://reactbits.dev/) para componentes e efeitos visuais, incluindo o campo de bolinhas.
+- [shadcn/ui](https://ui.shadcn.com/) e `tw-animate-css` para a base de estilos e utilitários.
+- [OGL](https://github.com/oframe/ogl) para o efeito prismático em WebGL.
+- [Hugeicons](https://hugeicons.com/) para os ícones da interface.
+
+## Como executar
+
+### Pré-requisitos
+
+- Node.js 20 ou superior.
+- npm.
+
+### Instalação
+
+```bash
+npm install
+```
+
+### Ambiente de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build de produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Estrutura principal
 
-To learn more about Next.js, take a look at the following resources:
+```text
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── AnimatedHeart.tsx
+│   ├── DotField.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── PrismaticBurst.tsx
+│   ├── PurposeSection.tsx
+│   ├── SplitText.tsx
+│   └── StorySection.tsx
+└── lib/
+	└── utils.ts
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As fotos da história ficam em `public/nos-dois/` e são referenciadas diretamente pelas páginas com caminhos como `/nos-dois/pedido.jpg`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Personalização
 
-## Deploy on Vercel
+Para trocar a imagem de preview do README, adicione o arquivo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+public/project-preview.png
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para adicionar ou alterar lembranças, edite a lista `stories` em `src/components/StorySection.tsx` e coloque as novas imagens na pasta `public/nos-dois/`.
+
+## Sobre mim
+
+Sou **Eduarda Vieira**, desenvolvedora apaixonada por criar experiências digitais com intenção, cuidado e personalidade. Este projeto foi feito como uma homenagem especial aos meus dois anos de namoro com o Artur.
+
+### Minhas redes
+
+- [Instagram](https://www.instagram.com/eduardavieira)
+- [GitHub](https://github.com/eduardavieira)
+- [LinkedIn](https://www.linkedin.com/in/eduardavieira)
+
+---
+
+Feito com carinho por **Eduarda Vieira**.
